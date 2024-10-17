@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main > h1 {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+.subtitle {
+  display: flex;
+  justify-content: space-evenly;
+}
+.entry {
+  display: flex;
+  justify-content: space-evenly;
+}
+.entry > p {
+  font-size: 20pt;
+}
